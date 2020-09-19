@@ -1,0 +1,95 @@
+* {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cv {
+    width: 892px;
+    height: 1263px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.header {
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.main {
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 25% 25% 25%;
+    grid-template-columns: 50% 50%;
+}
+
+.contacts {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: white;
+    padding-top: 5%;
+}
+
+section h3 {
+    text-align: center;
+}
+
+section p {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.education {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: white;
+    padding-top: 5%;
+}
+
+.about-me {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: white;
+    padding-top: 5%;
+}
+
+.key-skills {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: white;
+    padding-top: 5%;
+}
+
+.it-education {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: white;
+    padding-top: 5%;
+}
+
+.languages {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: white;
+    padding-top: 5%;
+}
+
+span {
+    font-weight: bold;
+}
